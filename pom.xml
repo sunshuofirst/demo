@@ -77,7 +77,7 @@
         <repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>
-            <url>https://repo.maven.apache.org/maven2/</url>
+            <url>https://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
     </repositories>
@@ -86,7 +86,7 @@
             <id>mulesoft-releases</id>
             <name>mulesoft release repository</name>
             <layout>default</layout>
-            <url>https://repo.maven.apache.org/maven2/</url>
+            <url>https://repository.mulesoft.org/releases/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
