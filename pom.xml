@@ -42,8 +42,8 @@
 <properties>
 <key>value</key>
 </properties>
-<connectedAppClientId>${client.id}</connectedAppClientId>
-<connectedAppClientSecret>${client.secret}</connectedAppClientSecret>
+<connectedAppClientId>${env.client_id}</connectedAppClientId>
+<connectedAppClientSecret>${env.client_secret}</connectedAppClientSecret>
 <connectedAppGrantType>client_credentials</connectedAppGrantType>
 <objectStoreV2>true</objectStoreV2>
 </cloudHubDeployment>
